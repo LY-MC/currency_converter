@@ -1,0 +1,69 @@
+.Screen {
+  text-align: center;
+  font-weight: bold;
+  width: 430px;
+  height: 325px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  background-color: #597ade;
+  border-radius: 10px;
+
+}
+.text1 {
+  position: relative;
+  right: 155px;
+  font-size: 20px;
+}
+.text2 {
+  position: relative;
+  right: 169px;
+  font-size: 20px;
+}
+body {
+  color: #001a66;
+  background-image: url(./logo1.png);
+
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.amount {
+  background-color: #bfccf2;
+  border-style: none;
+  font-size: 30px;
+  width: 296px;
+  border-radius: 7px;
+}
+
+.dropdownMenu {
+  background-color: #bfccf2;
+  border-style: none;
+  font-size: 20px;
+  width: 70px;
+  height: 55px;
+  border-radius: 7px;
+  position: relative;
+  left: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.fullName1 {
+  position: relative;
+  font-size: 20px;
+  left: 33px;
+  text-align: left;
+}
+
+.fullName2 {
+  position: relative;
+  font-size: 20px;
+  left: 33px;
+  text-align: left;
+}
